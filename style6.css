@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1b8f31;
+    text-align: center;
+}
+fieldset{
+    height: 60%;
+    width: 70%;
+    max-width: 600px;
+    box-sizing: border-box;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* padding: 70px 50px; */
+    padding: 3.5% 4% ;
+    border: none;
+    background-color: rgb(226, 237, 228);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px -10px;
+    overflow: auto;
+}
+fieldset *{
+    display: block;
+    font: 18px Tahoma;
+}
+input{
+    padding: 10px;
+    margin: 20px 0px;
+    width: 100%;
+    box-sizing: border-box  ;
+    border: none;
+    background-color: #ddd ;
+    border-radius: 3px;
+    overflow: auto;
+}
+input[type="submit"]{
+    background-color: #04931e;
+    color: whitesmoke;
+}
+input[type="submit"]:hover{
+    background-color: #0dab2a;
+    box-shadow:inset 0px 0px 15px #04931e;
+    transition: 0.5s;
+}
+label , a{
+    display: inline-block;
+    margin-top: 2%;
+    text-decoration: none;
+    font-size: 13px;
+    color: #777;
+}
+input[type="checkbox"]{
+    display: inline;
+    padding: 0;
+    margin: 0;
+    width: auto;
+    float: left;
+}
+input[type="checkbox"] + label{
+    float: left;
+    margin-top: 0;
+}
+a{
+    color: #037918;
+    font-weight: bold;
+}
+a:hover{
+    font-size: 13.5px;
+    color: #037111;
+    transition: 0.25s;
+}

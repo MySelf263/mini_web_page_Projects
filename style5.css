@@ -1,0 +1,234 @@
+*{margin: 0; padding: 0;}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+nav{
+    height: 50px;
+    background-color: #1d2a35;
+    color: #ddd;
+    position: relative;
+}
+nav img{
+    padding: 0.5% 1%;
+    height: 75%;
+    display: inline;
+    
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+    position: absolute;
+}
+nav li{
+    display: inline-block;
+    font-size: 16px;
+    padding: 15px 16px;
+}
+nav .table li:hover{
+    background-color: #04AA6D;
+}
+.buttons{
+    right:375px;
+}
+.store{
+    right: 180px;
+}
+.buttons li, .store li{
+    padding: 8px 10px;
+    margin: 7px 6px;
+}
+.buttons li:hover, .store li:hover{
+    background-color: rgba(211, 211, 211, 0.2);
+    background-clip: border-box;
+    border-radius: 50px;
+}
+.set_user{
+    right:0;
+    background-color: rgb(220, 255, 220);
+    border-radius: 30px;
+    margin: 5px 10px;
+}
+.set_user li{
+padding: 10px 16px;
+}
+.set_user .signup{
+    background-color: #04AA6D;
+    border-radius: inherit;
+    padding-right: 22px;
+    z-index: 2.1;
+}
+.set_user .signup a{
+    color: white;
+}
+.set_user .login{
+    padding-left: 10px;
+    z-index: 2;
+}
+.set_user .login a{
+    color: black;
+}
+nav a{
+    text-decoration: none;
+    color: #ddd;
+}
+.header{
+    background-color: #282A35;
+    color: white    ;
+    text-align:center;
+    background-image: url('images/W3sandy.png'), url('images/W3headerBackground.png');
+    background-repeat: no-repeat, repeat;
+    background-position: 90% 60%, center center;
+    padding-top: 90px;  
+    padding-bottom: 90px;
+}
+.header h1{
+    font-size: 70px;
+    font-weight: 700px  ;
+    padding-top: 50px;
+}
+.header p{
+    color: #FFF4A3;
+    font-weight: 700;
+    margin-top: 30px;
+    font-size: 23px;
+}
+.header input{
+    margin-top: 30px;
+    padding: 10px;
+    padding-left: 25px;
+    width: 400px;
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    font-size: 17px;
+    border: 1px solid #282A35;
+    border-right: 0px solid #04AA6D;
+}
+.header input:focus{
+    pointer-events: none;
+}
+.header button{
+    background-color: #04AA6D;
+    height: 40px;
+    width: 100px;
+    padding: 10px;
+    position: relative;
+    top:0px;
+    left: -4px;
+    text-align: center;
+    border: 1px solid #04AA6D;
+    border-radius: 0px 25px 25px 0px;
+}
+.header i{
+    font-size: 17px;
+    color:white;
+}
+.header p a{
+    color: white;
+}
+/* svg{
+    display: inline-block;
+    vertical-align: top;
+} */
+.section{
+    background-color: #D9EEE1;
+    position: relative;
+    top: -4px;
+    height: 600px;
+}
+.dashboard{
+    height: 450px;
+    position: absolute;
+    top:50%;
+    left: 33%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+}
+.dashboard h1{
+    font-size: 100px;
+    font-weight: 700;
+}
+.dashboard p{
+    font-size: 19px;
+    line-height: 1.5;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+.dashboard a{
+    text-decoration: none; 
+    display: block;
+    height: 45px;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 45px;
+    margin: 20px auto;
+    font-size: 18px;
+}
+.dashboard a[href = "https://www.w3schools.com/html/default.asp"]{
+    color: white;
+    background-color: #04AA6D;
+}
+.dashboard a[href = "https://www.w3schools.com/videos/index.php"]{
+    color: black;
+    background-color: #FFF4A3;
+}
+.dashboard a[href = "https://www.w3schools.com/tags/default.asp"]{
+    color: white;
+    background-color: #282A35;
+}
+.dashboard a[href = "https://campus.w3schools.com/collections/certifications/products/html-certificate"]{
+    background-color: #ffb3bb;
+    color: black;
+}
+.example{
+    height: 450px;
+    width: 430px;
+    background-color: #38444d;
+    color:#ddd;
+    box-sizing: border-box;
+    position: absolute;
+    top:50%;
+    left: 52%;
+    transform: translate(-0% , -50%);
+    border-radius: 5px;
+    box-shadow: 0px 0px 20px rgba(74, 81, 76, 0.5);
+}
+.example h3{
+    font-size: 24px;
+    font-weight: 400px;
+    margin: 30px 15px 5px;
+}
+.codes{
+    height: 300px;
+    width: 400px;
+    font-family: Consolas,Menlo,"courier new",monospace;
+    background-color: rgb(21,32,43);
+    padding: 8px 12px;
+    margin: 16px 15px;
+    margin-bottom: 24px;
+    box-sizing: inherit;
+    line-height: 22px;
+    border-left: 4px solid rgb(43, 46, 51);
+    color: #ff9999 ;
+}
+.codes .green_color{
+color: #88ccbb ;
+}
+.codes .purple_color{
+    color: #c5a5c5  ;
+    }
+.codes .color_white{
+    color: white ;
+}
+.example a{
+    text-decoration: none;
+    color: white;
+    background-color: #04AA6D;
+    padding: 10px 50px;
+    margin: 15px;
+    border-radius: 25px;
+    font-size: 18px;
+}
+.example a:hover{
+    background-color: #059862 ;
+}

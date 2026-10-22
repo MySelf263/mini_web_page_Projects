@@ -1,0 +1,172 @@
+*{
+    margin:0px;
+    padding: 0px;
+    transition: 0.6s;
+    scroll-behavior: smooth;
+}
+body{
+    background-color:#e7caa0;
+}
+header{
+    background: -webkit-linear-gradient(bottom,#e7caa0,#824100);
+    padding: 40px;
+}
+.mug {
+    position: relative;
+    height: 85px;
+    width: 210px;
+    margin:0px auto 50px;
+    padding-top: 100px;
+    background: -webkit-linear-gradient(right, #ddd 0, white 3%);
+    /* background-color: white; */
+    border-top-left-radius: 150px 100px;
+    border-top-right-radius: 150px 100px;
+}
+.mug:before {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 210px;
+    bottom: -77px;
+    border-radius: 50%;
+    background: linear-gradient(right, #ddd 0, white 100%);
+    background-color: white;
+    box-shadow:inset -2px -10px 7px 0px #e8e8e8ed;
+}
+
+.mug:after {
+    content: "";
+    position: absolute;
+    height: 130px;
+    width: 188px;
+    top: 5px;
+    left: 11px;
+    border-radius: 50%;
+    background: linear-gradient(top, #eee 0, silver 100%);
+    box-shadow: inset 0px 10px 0px 2px #f3f3f3;
+}
+.handle {
+    position: absolute;
+    height: 70px;
+    width: 50px;
+    top: 110px;
+    left: -48px;
+    border-top-left-radius: 75px 100px;
+    border-bottom-left-radius: 75px 100px;
+    border-top-right-radius: 50% 10px;
+    border-bottom-right-radius: 50% 10px;
+    background: -webkit-linear-gradient(bottom, #f3f3f3 0%, white 100%);
+    /* background-color: white; */
+}
+.handle:after {
+    content: "";
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 25px;
+    right: 5px;
+    border-top-left-radius: 45px 70px;
+    border-bottom-left-radius: 45px 70px;
+    border-top-right-radius: 45px 35px;
+    border-bottom-right-radius: 45px 35px;
+    background: -webkit-linear-gradient(bottom,#d2b386,#d3a678);
+    box-shadow: -3px 10px 10px #ccc;
+}
+.handle::before{
+    content: "";
+    position: absolute;
+    height: 135px;
+    width: 183px;
+    /* top: 10px; */
+    left: 62px;
+    bottom: 32px;
+    border-radius: 50%;
+    /* background: linear-gradient(top, #613000 0, #824100 100%);   */
+    background: -webkit-linear-gradient(bottom,#5d2e00,#c4974d);
+    /* background-color: #c4974d; */
+}
+header h1{
+    font: bold 50px Edwardian Script ITC;
+	color: black;
+	text-align:center;
+    border-radius: 20px;
+    text-transform:capitalize;
+}
+ul{
+    user-select: none;
+    background-color: rgb(175, 100, 0);
+    list-style: none;
+    display: inline-block;
+    width: 100%;
+    margin: 10px 0px;
+    height: 60px;
+    box-sizing:border-box;
+    text-align: center;
+/* important */
+    position: sticky;
+    top: 0;
+}
+li{display: inline-block;}
+li a{
+    box-sizing:border-box;
+    display: inline-block;
+    text-decoration: none;
+    color:black;
+    /* font-family: cursive; */
+    font: normal 17px cursive;
+    /* font-size: 17px;  */
+    padding: 18px; 
+    margin:0px 5px;
+    border-radius: 2px;
+    text-transform:capitalize;
+}
+li a:hover{
+    background-color: rgb(105, 60, 0);
+    color: #fffadc;
+    font-size: 22px;
+    padding: 13px;
+    margin:0px;
+}
+p{
+    margin: 10px;
+    padding: 15px 15px 40px;
+    background-color: rgb(130, 65, 0);
+    border-radius: 5px;
+    color:#fffadc;
+    }
+span{
+    font: bold 48px Edwardian Script ITC;
+    display: block;
+    padding: 10px;
+    background: -webkit-linear-gradient(bottom,#824100 10%,#c4974d 100%);
+    margin-bottom:10px;
+    border-radius: 5px;
+    text-align: center;
+    color:#362412;
+    text-transform:capitalize;
+}
+p a{
+    float: right;
+    margin: 10px 5px;
+    padding: 3px 8px;
+    border-radius: 50%;
+    background-color: #fffadc;
+    text-decoration: none;
+    color: #331e0a;
+    font: bold 20px 'Courier New';
+}
+p a:hover{
+    padding: 0px 6px;
+    font-size: 27px;
+    box-shadow: -5px 2px 4px 1px  rgb(80, 40, 0);
+}
+footer{
+    background: -webkit-linear-gradient(top,#e7caa0,#824100);
+    height: 80px;
+    box-sizing:border-box;
+    text-align: center;
+    font: bold 50px Edwardian Script ITC;
+    color: #362412;
+    user-select:none;
+    text-transform:capitalize;
+}

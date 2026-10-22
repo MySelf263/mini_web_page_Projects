@@ -1,0 +1,148 @@
+@font-face {
+    font-family: bru;
+    src: url(fonts/BRUSHSCRIPTSTD.OTF) format('OTF');
+    font-family: itc;
+    src: url(fonts/ITCEDSCR.TTF) format('truetype');
+    font-family: mj;
+    src: url(fonts/MJ_DIALA.TTF) format('truetype');
+    font-family: par;
+    src: url(fonts/PARCHM.TTF) format('truetype');
+    font-family: viv;
+    src: url(fonts/VIVALDII.TTF) format('truetype');
+}
+body{
+    padding:5px;
+    margin:0;
+    background: whitesmoke no-repeat;
+}
+/* header */
+.header{
+    box-sizing: border-box;
+    padding: 5px;
+    background:green url("images/mostafa\ \(2\).jpg") no-repeat;
+    height: 350px;
+    background-position: center;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-size: cover;
+    background-blend-mode: soft-light;
+    /* background-blend-mode: multiply; */
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hard-light; */
+    color:white;
+    border-radius: 2px;
+}
+ul{
+    list-style: none inside;
+    text-align: center;
+
+}
+li{
+    display: inline-block;
+    margin: 5px 15px;
+    font: 18px bru bolder;
+}
+li:hover{
+    color: rgb(255, 200, 0);
+}
+.title{
+    text-align:center;
+    font: 74px viv;
+    padding: 10px;
+}
+.title span{
+    color: rgb(255, 200, 0);
+}
+.subtitle{
+    text-align: center;
+    font: 18px bru;
+    margin-top: 80px;
+    background-color: rgb(255, 200, 0);
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    border-radius: 20px;
+    margin: auto;
+}
+/* members */
+.members{
+height: 650px;
+padding: 10px 0px;
+text-align: center;
+}
+.members .title{
+    font-size: 44px;
+    padding: 0px;
+    margin: 10px;
+}
+.members div{
+    display: inline-block;
+    width: 200px;
+    height: 530px;
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(240, 240, 240);
+    box-shadow: 0px 0px 25px 3px lightgray;
+}
+.members img{
+    width: 100%;
+}
+.members .name{
+    font: 20px itc;
+}
+.members .description{
+    text-align: justify;
+}
+/* about */
+.about{
+    box-sizing: border-box;
+    padding: 5px;
+    background:green url("images/mostafa\ \(2\).jpg") no-repeat;
+    height: 350px;
+    background-position: center;
+    background-origin: border-box;
+    background-clip: border-box;
+    background-size: cover;
+    /* background-blend-mode: soft-light; */
+    background-blend-mode: multiply;
+    /* background-blend-mode: exclusion; */
+    /* background-blend-mode: hard-light; */
+    color:white;
+    border-radius: 2px;
+}
+.contentBox{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    margin: 20px auto;
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: rgba(20, 150, 20, 0.6);
+    text-align: center;
+}
+.contentBox .title{
+    font-size: 48px;
+    padding: 1px;
+}
+.contentBox .description{
+    padding: 1px 5px;
+    font-size:12px;
+    width: 200px;
+    margin: auto;
+    margin-top: -15px;
+}
+/* footer */
+.footer{
+    margin-top:30px;
+    height: 170px;
+    background-color: rgb(240, 240, 240);
+    text-align: center;
+    padding-top: 55px;
+}
+.shareBox{
+    height: 100px;
+    background-color: rgb(170, 170, 170);
+}
+.footer p{
+    font: 18px itc;
+}
