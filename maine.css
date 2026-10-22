@@ -1,0 +1,111 @@
+
+*{margin: 0px;
+	padding: 0px;}
+h1{font: bold 50px Edwardian Script ITC;}
+h2{font: bold 20px tahoma;}
+h3{font: bold 14px tahoma;}
+header, section, footer, nav, article, aside{display: block;}
+body{width: 100% ;
+display: -webkit-box;
+-webkit-box-pack: center;
+background: rgb(255, 233, 196);
+}
+.ddt{max-width: 1000px;
+margin: 20px 0px;
+	color: black;
+	display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-box-flex: 1;
+}
+.dc{background: -webkit-linear-gradient(top,#efa214,rgb(248, 210, 127));
+	color: black;
+	text-align:center;
+border: 3px sloid gray;
+padding: 20px;
+border-radius: 20px;
+}
+.top-menu{
+text-align:center;
+color: black;}
+.top-menu li{display: inline-block;
+list-style: none;
+padding: 5px;
+-webkit-box-flex: 1;
+font: bold 18px OCR A Extended;
+
+}
+
+.li {margin: 10px;
+padding: 30px;
+background: rgb(238, 201, 169);
+-webkit-box-flex: 1;
+border-radius: 5px;
+transition: -webkit-transform 1s;
+box-shadow: rgb(110,110,110) -2px -2px 3px inset;}
+.li:hover{transform: scale(1.3)}
+.div{display: -webkit-box;
+-webkit-box-flex: 1;
+-webkit-box-orient: horizontal;
+}
+article,.right{border: 1px solid rgba(245, 168, 24, 0.823);
+margin: 20px;
+padding: 20px;
+border-radius: 10px;
+  background:rgba(245, 168, 24, 0.407);
+color: white;
+}
+.good-section{-webkit-box-flex: 1;}
+.text-footer{
+	text-align: right;
+}
+.right{border-width: 2px;
+margin: 20px 0px;
+color: white;
+padding: 30px;
+width: 125px;
+border-radius: 10px;
+}
+
+.end-work{text-align: center;
+padding: 20px;
+border-radius: 5px;
+color: white;
+font: 14px  Barcode ;
+text-shadow: rgb(110,110,110) 3px 3px 5px;
+background: -webkit-linear-gradient(bottom,#ffbf10,rgb(255, 217, 25));
+}
+/* 
+  color: #292929;
+ 
+  border: 2px solid #6af;
+ 
+  color:orangered;
+ 
+  color:#fff;
+ 
+  color:rgba(255,255,255,.15);
+ 
+  color:#333;
+ 
+  color:#f7f7f7;
+ 
+  color:#464646;
+
+  color:rgba(0,0,0,.06125);
+
+  color:rgba(0,0,0,.25);
+
+  color:rgba(255,255,255,.125);
+
+  color:rgba(0,0,0,.125);
+
+  color:rgba(70,70,70,.95);
+
+  color:#2e2e2e;
+
+  color:#ededed;
+
+  color:rgba(255,255,255,.06125);
+
+  color: white; */
+
